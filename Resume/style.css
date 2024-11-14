@@ -1,0 +1,63 @@
+*{
+    overflow-x: hidden !important;
+}
+body{
+    overflow-x: hidden !important;
+}
+h1{
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow:3px 3px 2px  #07c1ff ;
+
+    
+}
+body{
+    color: #8cbac4;
+    
+}
+#green{
+    background-color: #03465D;
+    max-width:1000px;
+    padding-top: 20px;
+    border: 8px outset #022c3a;
+    margin: 20px auto 20px auto;
+    
+}
+#yellow{
+    padding-left: 30px;
+    color: white;
+}
+h3{
+    color: orange;
+    font-size: 25px;
+
+}
+
+li{
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 120, 71);
+}
+#objective{
+    margin-right: 2rem;
+   word-spacing: 5px;
+   line-height: 25px;
+   letter-spacing: 2px;
+   text-transform: capitalize;
+}
+#list3{
+    text-transform: uppercase;
+}
+span{
+    color: rgb(255, 120, 71);
+
+}
+
+@media (width < 500px){
+    ul{
+        padding-left: 0 !important;
+    }
+}
